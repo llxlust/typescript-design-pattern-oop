@@ -2,6 +2,7 @@ import { AbstractFactory } from "./creational-pattern/abstract-factory-pattern/a
 import { Builder } from "./creational-pattern/builder-pattern/builder-pattern";
 import { FactoryMethod } from "./creational-pattern/factory-method-pattern/factory-method-pattern";
 import { Prototype } from "./creational-pattern/prototype-pattern/prototype-pattern";
+import { SingletonPattern } from "./creational-pattern/singleton-pattern/singleton-pattern";
 
 class Main {
   constructor() {
