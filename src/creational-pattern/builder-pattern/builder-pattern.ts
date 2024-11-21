@@ -1,7 +1,7 @@
 import { CarBuilder } from "./classes/car-builder";
 import { Director } from "./classes/director";
 
-export class BuilderPattern {
+export class Builder {
   constructor() {
     this.main();
   }
