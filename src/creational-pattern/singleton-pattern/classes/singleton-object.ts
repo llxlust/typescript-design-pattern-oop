@@ -1,9 +1,9 @@
-export abstract class SingletonObject {
+export class SingletonObject {
   private static instance: SingletonObject;
   public username: string | null = null;
   public static getSingletonObjectInstance(): SingletonObject {
     if (!this.instance) {
-      this.instance = Object.create(this);
+      this.instance = new SingletonObject();
       return this.instance;
     }
     return this.instance;
