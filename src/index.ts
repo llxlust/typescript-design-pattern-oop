@@ -7,13 +7,14 @@ import { SingletonPattern } from "./creational-pattern/singleton-pattern/singlet
 // structural-pattern
 import { AdapterPattern } from "./structural-patterns/adapter-pattern/adapter-pattern";
 import { BridgePattern } from "./structural-patterns/bridge-pattern/bridge-pattern";
+import { CompositePattern } from "./structural-patterns/composite-pattern/composite-pattern";
 
 class Main {
   constructor() {
     this.main();
   }
   private main(): void {
-    const bridge = new BridgePattern();
+    const composite = new CompositePattern();
   }
 }
 const mainInstance: Main = new Main();
