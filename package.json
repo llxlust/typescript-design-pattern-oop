@@ -6,8 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "nodemon ./src/index.ts",
+    "deWatch": "nodemon ./src/decorator/decorator.ts",
     "build": "tsc",
-    "dev": "npm run build && concurrently \" npm run watch \" \" npx tsc --watch \""
+    "dev": "npm run build && concurrently \" npm run watch \" \" npx tsc --watch \"",
+    "ddev": "npm run build && concurrently \" npm run deWatch \" \" npx tsc --watch \""
   },
   "keywords": [],
   "author": "",
