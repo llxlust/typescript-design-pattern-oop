@@ -8,13 +8,14 @@ import { SingletonPattern } from "./creational-pattern/singleton-pattern/singlet
 import { AdapterPattern } from "./structural-patterns/adapter-pattern/adapter-pattern";
 import { BridgePattern } from "./structural-patterns/bridge-pattern/bridge-pattern";
 import { CompositePattern } from "./structural-patterns/composite-pattern/composite-pattern";
+import { DecoratorPattern } from "./structural-patterns/decorator-pattern/decorator-pattern";
 
 class Main {
   constructor() {
     this.main();
   }
   private main(): void {
-    const composite = new CompositePattern();
+    const decorator = new DecoratorPattern();
   }
 }
 const mainInstance: Main = new Main();
