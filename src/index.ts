@@ -9,13 +9,14 @@ import { AdapterPattern } from "./structural-patterns/adapter-pattern/adapter-pa
 import { BridgePattern } from "./structural-patterns/bridge-pattern/bridge-pattern";
 import { CompositePattern } from "./structural-patterns/composite-pattern/composite-pattern";
 import { DecoratorPattern } from "./structural-patterns/decorator-pattern/decorator-pattern";
+import { FacadePattern } from "./structural-patterns/facade-pattern/facade-pattern";
 
 class Main {
   constructor() {
     this.main();
   }
   private main(): void {
-    const decorator = new DecoratorPattern();
+    const facade = new FacadePattern();
   }
 }
 const mainInstance: Main = new Main();
