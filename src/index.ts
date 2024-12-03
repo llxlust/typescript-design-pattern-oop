@@ -11,13 +11,14 @@ import { CompositePattern } from "./structural-patterns/composite-pattern/compos
 import { DecoratorPattern } from "./structural-patterns/decorator-pattern/decorator-pattern";
 import { FacadePattern } from "./structural-patterns/facade-pattern/facade-pattern";
 import { FlyWeight } from "./structural-patterns/flyweight-pattern/flyweight-pattern";
+import { ProxyPattern } from "./structural-patterns/proxy-pattern/proxy-pattern";
 
 class Main {
   constructor() {
     this.main();
   }
   private main(): void {
-    const flyWeight = new FlyWeight();
+    const Proxy = new ProxyPattern();
   }
 }
 const mainInstance: Main = new Main();

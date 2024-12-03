@@ -5,7 +5,7 @@ export class FlyWeight {
   constructor() {
     this.main();
   }
-  private main() {
+  private main(): void {
     const flyWeightFactory = new CharacterFactory();
     const characterA: ConcreateCharacter = flyWeightFactory.getCharacter("A");
     const characterB: ConcreateCharacter = flyWeightFactory.getCharacter("B");
