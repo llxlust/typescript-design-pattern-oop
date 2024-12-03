@@ -20,6 +20,7 @@ function xssValidator() {
 
 class DecoratorTest {
   constructor() {}
+
   @xssValidator()
   decorator(name: string, age: number) {
     console.log("Hello original");

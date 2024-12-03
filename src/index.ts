@@ -10,13 +10,14 @@ import { BridgePattern } from "./structural-patterns/bridge-pattern/bridge-patte
 import { CompositePattern } from "./structural-patterns/composite-pattern/composite-pattern";
 import { DecoratorPattern } from "./structural-patterns/decorator-pattern/decorator-pattern";
 import { FacadePattern } from "./structural-patterns/facade-pattern/facade-pattern";
+import { FlyWeight } from "./structural-patterns/flyweight-pattern/flyweight-pattern";
 
 class Main {
   constructor() {
     this.main();
   }
   private main(): void {
-    const facade = new FacadePattern();
+    const flyWeight = new FlyWeight();
   }
 }
 const mainInstance: Main = new Main();
