@@ -1,4 +1,5 @@
 // creational-pattern
+import { ChainPattern } from "./behavior-pattern/chain-of-responsibility-pattern/chain-of-responsibility-pattern";
 import { AbstractFactory } from "./creational-pattern/abstract-factory-pattern/abstract-factory-pattern";
 import { Builder } from "./creational-pattern/builder-pattern/builder-pattern";
 import { FactoryMethod } from "./creational-pattern/factory-method-pattern/factory-method-pattern";
@@ -11,6 +12,7 @@ import { CompositePattern } from "./structural-patterns/composite-pattern/compos
 import { DecoratorPattern } from "./structural-patterns/decorator-pattern/decorator-pattern";
 import { FacadePattern } from "./structural-patterns/facade-pattern/facade-pattern";
 import { FlyWeight } from "./structural-patterns/flyweight-pattern/flyweight-pattern";
+// behavior-pattern
 import { ProxyPattern } from "./structural-patterns/proxy-pattern/proxy-pattern";
 
 class Main {
@@ -18,7 +20,7 @@ class Main {
     this.main();
   }
   private main(): void {
-    const Proxy = new ProxyPattern();
+    const chain = new ChainPattern();
   }
 }
 const mainInstance: Main = new Main();
