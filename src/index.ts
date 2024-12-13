@@ -17,12 +17,13 @@ import { ChainPattern } from "./behavior-pattern/chain-of-responsibility-pattern
 import { CommandPattern } from "./behavior-pattern/command-pattern/command-pattern";
 import { IteratorPattern } from "./behavior-pattern/iterator-pattern/iterator-pattern";
 import { ObserverPattern } from "./behavior-pattern/observer-pattern/observer-pattern";
+import { StatePattern } from "./behavior-pattern/state-pattern/state-pattern";
 class Main {
   constructor() {
     this.main();
   }
   private main(): void {
-    const observer = new ObserverPattern();
+    const statePattern = new StatePattern();
   }
 }
 const mainInstance: Main = new Main();
