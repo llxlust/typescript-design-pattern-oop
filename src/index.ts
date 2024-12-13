@@ -16,12 +16,13 @@ import { FlyWeight } from "./structural-patterns/flyweight-pattern/flyweight-pat
 import { ChainPattern } from "./behavior-pattern/chain-of-responsibility-pattern/chain-of-responsibility-pattern";
 import { CommandPattern } from "./behavior-pattern/command-pattern/command-pattern";
 import { IteratorPattern } from "./behavior-pattern/iterator-pattern/iterator-pattern";
+import { ObserverPattern } from "./behavior-pattern/observer-pattern/observer-pattern";
 class Main {
   constructor() {
     this.main();
   }
   private main(): void {
-    const iterator = new IteratorPattern();
+    const observer = new ObserverPattern();
   }
 }
 const mainInstance: Main = new Main();
