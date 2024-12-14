@@ -20,12 +20,13 @@ import { ObserverPattern } from "./behavior-pattern/observer-pattern/observer-pa
 import { StatePattern } from "./behavior-pattern/state-pattern/state-pattern";
 import { StrategyPattern } from "./behavior-pattern/strategy-pattern/strategy-pattern";
 import { TemplatePattern } from "./behavior-pattern/template-pattern/template-pattern";
+import { VisitorPattern } from "./behavior-pattern/visitor-pattern/visitor-pattern";
 class Main {
   constructor() {
     this.main();
   }
   private main(): void {
-    const templatePattern = new TemplatePattern();
+    const visitorPattern = new VisitorPattern();
   }
 }
 const mainInstance: Main = new Main();
