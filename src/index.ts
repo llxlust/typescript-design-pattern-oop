@@ -19,12 +19,13 @@ import { IteratorPattern } from "./behavior-pattern/iterator-pattern/iterator-pa
 import { ObserverPattern } from "./behavior-pattern/observer-pattern/observer-pattern";
 import { StatePattern } from "./behavior-pattern/state-pattern/state-pattern";
 import { StrategyPattern } from "./behavior-pattern/strategy-pattern/strategy-pattern";
+import { TemplatePattern } from "./behavior-pattern/template-pattern/template-pattern";
 class Main {
   constructor() {
     this.main();
   }
   private main(): void {
-    const strategyPattern = new StrategyPattern();
+    const templatePattern = new TemplatePattern();
   }
 }
 const mainInstance: Main = new Main();
