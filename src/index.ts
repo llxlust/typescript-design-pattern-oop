@@ -18,12 +18,13 @@ import { CommandPattern } from "./behavior-pattern/command-pattern/command-patte
 import { IteratorPattern } from "./behavior-pattern/iterator-pattern/iterator-pattern";
 import { ObserverPattern } from "./behavior-pattern/observer-pattern/observer-pattern";
 import { StatePattern } from "./behavior-pattern/state-pattern/state-pattern";
+import { StrategyPattern } from "./behavior-pattern/strategy-pattern/strategy-pattern";
 class Main {
   constructor() {
     this.main();
   }
   private main(): void {
-    const statePattern = new StatePattern();
+    const strategyPattern = new StrategyPattern();
   }
 }
 const mainInstance: Main = new Main();
